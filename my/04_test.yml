@@ -19,6 +19,7 @@ spec:
     spec:
       containers:
       - image: ealen/echo-server
+        imagePullPolicy: IfNotPresent
         name: echoer
         ports:
         - containerPort: 80
