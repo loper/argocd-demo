@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: echoserver
+            name: echoer2
             port:
               number: 10080
